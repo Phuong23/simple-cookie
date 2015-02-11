@@ -2,4 +2,14 @@ language: node_js
 node_js:
   - '0.10'
   - '0.12'
+  # whitelist
+branches:
+  only:
+    - build
+    - buildbis
 script: "npm run-script test"
+# whitelist
+branches:
+  only:
+    - build
+    - buildbis
