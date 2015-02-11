@@ -8,8 +8,3 @@ branches:
     - build
     - buildbis
 script: "npm run-script test"
-# whitelist
-branches:
-  only:
-    - build
-    - buildbis
